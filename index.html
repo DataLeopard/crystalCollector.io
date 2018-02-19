@@ -1,0 +1,62 @@
+<!--
+    javascript
+
+    Crystals: Ruby, Diamond, Emerald, Blodstone
+        value between 1-10
+        each click adds crystal value to totalScore
+
+    targetNumber
+        randomly generated
+
+    totalScore
+        sum of crystal clicks
+    
+    WinsLosses
+        If totalScore = targetNumber + 1 Win and Reset
+        If totalScore > targetNumber + 1 Loss and Reset
+    -->
+
+    
+     <!DOCTYPE html>
+     <html lang="en">
+     <head>
+    <link rel="stylesheet" type="text/css" href="assets/css/style.css">
+         <meta charset="UTF-8">
+         <meta name="viewport" content="width=device-width, initial-scale=1.0">
+         <meta http-equiv="X-UA-Compatible" content="ie=edge">
+         <title>Crystal Game</title>
+     </head>
+     <body>
+            <textarea id = "targetNumber" rows="4" cols="50"> 
+                    "Hit this number without going over" 
+                    </textarea>  (targetNumber)
+
+            <textarea id = "totalScore" rows="4" cols="50"> 
+                    "Your total score equals" 
+                    </textarea>  (totalScore)
+                    
+            <textarea id = "wins" rows="4" cols="50"> 
+                    "wins" 
+                    </textarea>  (wins)
+
+            <textarea id = "losses" rows="4" cols="50"> 
+                    "losses" 
+                    </textarea>  (losses)
+
+            <button type="button" id = "ruby" >Ruby</button>
+
+            <button type="button" id = "diamond" >Diamond</button>
+
+            <button type="button" id = "emerald" >Emerald</button>
+
+            <button type="button" id = "bloodstone" >Bloodstone</button>
+            
+     
+            <script src="http://code.jquery.com/jquery-3.3.1.js"
+            integrity="sha256-2Kok7MbOyxpgUVvAk/HJ2jigOSYS2auK4Pfzbm7uH60="
+            crossorigin="anonymous"></script>
+            <script src="assets/javaScript/crystal.js"></script>
+     </body>
+     </html>
+
+
